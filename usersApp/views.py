@@ -58,7 +58,6 @@ def registrationWindow(request):
     return render(request, "usersApp/registration.html")
 
 def reg(request):
-    print("sdfdsf")
     form_values = {
         'university': request.POST.get('university'),
         'email': request.POST.get('email'),
